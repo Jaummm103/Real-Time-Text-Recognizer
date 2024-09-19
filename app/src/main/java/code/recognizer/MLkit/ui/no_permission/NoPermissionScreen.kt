@@ -1,5 +1,6 @@
 package code.recognizer.MLkit.ui.no_permission
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -27,6 +28,7 @@ fun NoPermissionScreen(
     )
 }
 
+@SuppressLint("ComposeModifierMissing")
 @Composable
 fun NoPermissionContent(
     onRequestPermission: () -> Unit
